@@ -1,4 +1,4 @@
-'''
+"""
 Write a function that takes in a list of numbers and returns a dictionary containing the following statistics about the numbers: the mean, median, mode, sample variance, sample standard deviation, and 95% confidence interval for the mean.
 
 Note that:
@@ -18,7 +18,7 @@ Sample Output
   "sample_standard_deviation": 2.0,
   "mean_confidence_interval": [2.6141, 5.3859],
 }
-'''
+"""
 
 def get_statistics(input_list):
     l = sorted(input_list)
